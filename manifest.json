@@ -1,0 +1,14 @@
+{
+  "name": "meet-clock",
+  "version": "1.0",
+  "description": "A Chrome extension that displays a clock at the entrance to Google Meet",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "run_at": "document_end",
+      "js": ["content_meet.js"]
+    }
+  ]
+}
