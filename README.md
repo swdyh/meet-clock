@@ -1,5 +1,5 @@
 # meet-clock
-A Chrome extension that displays a clock at the entrance to Google Meet
+A Chrome extension that displays a clock at the entrance to Google Meet.  
 GoogleMeetの入り口に時計を表示するChrome拡張です
 
 <img width="80%" alt="screen" src="https://user-images.githubusercontent.com/9168/164884494-32914be6-9079-4436-8224-d2976bf84bbb.png">
